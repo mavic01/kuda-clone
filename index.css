@@ -383,7 +383,7 @@ h1 {
   font-size: 16px;
 }
 .sectionTextDiv a {
-  color: #40196D;
+  color: #40196d;
   font-weight: bold;
 }
 
@@ -610,7 +610,6 @@ td {
   text-align: left;
 }
 
-
 .more-for-you-part {
   margin-top: 70px;
   margin-inline: 130px;
@@ -640,9 +639,11 @@ td {
 .more-for-you-cards h3 {
   height: 24px;
   font-weight: bold;
-  color: #40196D;
+  color: #40196d;
 }
-.more-for-you-card1, .more-for-you-card2, .more-for-you-card3 {
+.more-for-you-card1,
+.more-for-you-card2,
+.more-for-you-card3 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -655,7 +656,6 @@ td {
   display: flex;
   flex-direction: column;
   gap: 16px;
-
 }
 .more-for-you-cards p {
   font-size: 16px;
@@ -664,15 +664,26 @@ td {
 }
 .more-for-you-cards a {
   font-size: 16px;
-  color: #40196D;
+  color: #40196d;
   max-width: 600px;
   font-weight: bold;
 }
- #card-part p, #relaxing-girl-part p, #its-your-money-part p, #more-for-you-card-text p, #save-money-part p, #block-card-part p, #get-help-part p, #fees-part p, #testimonial-part p, #our-partners-part p, #choose-freedom-part p, #the-money-app-part p {
-   color: black;
-   font-size: 16px;
+#card-part p,
+#relaxing-girl-part p,
+#its-your-money-part p,
+#more-for-you-card-text p,
+#save-money-part p,
+#block-card-part p,
+#get-help-part p,
+#fees-part p,
+#testimonial-part p,
+#our-partners-part p,
+#choose-freedom-part p,
+#the-money-app-part p {
+  color: black;
+  font-size: 16px;
   font-weight: normal;
- }
+}
 
 .money-app {
   margin-inline: 130px;
@@ -684,14 +695,14 @@ td {
   justify-content: center;
 }
 .money-app-wrapper {
-  background-color: #EFF1FF;
-  box-shadow: 5px 10px 8px #40196D12;
+  background-color: #eff1ff;
+  box-shadow: 5px 10px 8px #40196d12;
   display: flex;
   align-items: center;
   justify-content: center;
   padding-inline: 80px;
 }
-.money-app-wrapper-left  {
+.money-app-wrapper-left {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -699,12 +710,12 @@ td {
 }
 .money-app-wrapper-left h2 {
   font-weight: bold;
-  color: #40196D;
+  color: #40196d;
   font-size: 36px;
 }
 .money-app-wrapper-left a {
   margin-right: auto;
-  background-color: #40196D;
+  background-color: #40196d;
   cursor: pointer;
   padding: 16px 39px;
   color: white;
@@ -718,7 +729,7 @@ td {
 
 .footer-group-1 h3 {
   font-size: 16px;
-  color: #40196D;
+  color: #40196d;
   font-weight: bold;
   margin-bottom: 30px;
 }
@@ -768,10 +779,6 @@ td {
   .navLogo img {
     max-height: 40px;
     width: auto;
-  }
-
-  header {
-    padding-block: 10px;
   }
   .our-partners {
     padding-inline: 10px;
@@ -823,7 +830,6 @@ td {
   .table-wrapper {
     padding: 12px;
   }
-  
 }
 
 @media screen and (max-width: 479px) {
@@ -857,7 +863,12 @@ td {
   .sectionTextDiv {
     max-width: fit-content;
   }
-  .sectionTextDiv h2, .section1divReverse-text h2, .testimonials h2, .our-partners h2, .choose-freedom h2, .more-for-you-wrapper h2 {
+  .sectionTextDiv h2,
+  .section1divReverse-text h2,
+  .testimonials h2,
+  .our-partners h2,
+  .choose-freedom h2,
+  .more-for-you-wrapper h2 {
     font-size: 28px;
     text-align: center;
   }
@@ -920,11 +931,12 @@ td {
     padding: 10px;
   }
 
-  .more-for-you-part,.our-partners {
+  .more-for-you-part,
+  .our-partners {
     margin-inline: 30px;
   }
   .more-for-you-cards {
-    flex-direction: column; 
+    flex-direction: column;
   }
 
   .money-app-wrapper {
@@ -932,17 +944,17 @@ td {
     padding-block: 12px;
   }
   .money-app-wrapper-left a {
-  margin-right: auto;
-  background-color: #40196D;
-  cursor: pointer;
-  padding: 12px 20px;
-  display: inline-flex;
-  font-size: 14px;
+    margin-right: auto;
+    background-color: #40196d;
+    cursor: pointer;
+    padding: 12px 20px;
+    display: inline-flex;
+    font-size: 14px;
   }
   .footer {
     margin: 30px;
   }
   .footer-group1-a {
-   gap: 30px; 
+    gap: 30px;
   }
 }
