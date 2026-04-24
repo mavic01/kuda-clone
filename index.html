@@ -1,0 +1,513 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./output.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Kuda clone</title>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+        <label for="menu-toggle" class="hamburger" aria-label="Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+
+        <div class="navLeft">
+          <a class="navLogo" href="#">
+            <img src="./img/navLogo.png" alt="Nav Logo" />
+          </a>
+
+          <div class="navLeft-item">
+            <a href="#"
+              >Personal <img src="./img/navItem-downArrow.png" alt="down-arrow"
+            /></a>
+            <a href="#"
+              >Business <img src="./img/navItem-downArrow.png" alt="down-arrow"
+            /></a>
+            <a href="#"
+              >Company <img src="./img/navItem-downArrow.png" alt="down-arrow"
+            /></a>
+            <a href="#"
+              >Help <img src="./img/navItem-downArrow.png" alt="down-arrow"
+            /></a>
+          </div>
+        </div>
+
+        <div class="navRight">
+          <a class="navRight-signIn" href="#">Sign In</a>
+          <a class="openAccountBtn" href="#">Join Kuda</a>
+          <div class="navRightImg">
+            <img src="./img/ngFlag.png" alt="Nigerian Flag" />
+          </div>
+        </div>
+
+        <div class="mobile-menu-overlay">
+          <label for="menu-toggle" class="x">x</label>
+          <div class="mobile-nav-links">
+            <a href="#"
+              >Personal <img src="./img/navItem-downArrow.png" alt="down-arrow"
+            /></a>
+            <a href="#"
+              >Business <img src="./img/navItem-downArrow.png" alt="down-arrow"
+            /></a>
+            <a href="#"
+              >Company <img src="./img/navItem-downArrow.png" alt="down-arrow"
+            /></a>
+            <a href="#"
+              >Help <img src="./img/navItem-downArrow.png" alt="down-arrow"
+            /></a>
+          </div>
+          <div class="mobile-onboarding">
+            <a href="#" class="mobile-signin">Sign In</a>
+            <a href="#" class="mobile-join">Join Kuda</a>
+            <div class="mobile-flag">
+              <img src="./img/ngFlag.png" alt="Nigerian Flag" />
+            </div>
+          </div>
+        </div>
+        <label for="menu-toggle" class="menu-backdrop"></label>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section1">
+        <div class="heroDiv">
+          <div class="heroTextDiv">
+            <h1>
+              The money app for <br />
+              Africans.
+            </h1>
+            <p>
+              Make free transfers, enjoy cashless payment options and earn
+              interest on your savings with Kuda.
+            </p>
+            <div class="heroImageDiv">
+              <div><img src="./img/appStoreImg.png" alt="" /></div>
+              <div><img src="./img/googlePlayImg.png" alt="" /></div>
+            </div>
+            <div class="heroFooter">
+              <p>Licenced by cbn</p>
+              <img src="./img/cbnLogo.png" alt="" />
+              <p>Deposit insured by | <span>NDIC</span></p>
+            </div>
+          </div>
+          <div class="heroImage">
+            <img src="./img/phoneontainer.png" alt="" />
+          </div>
+        </div>
+        <div class="popUp">
+          <div class="popup-cookie">
+            By using this website you agree to our
+            <a href="#">cookie policy</a>.
+          </div>
+          <a class="dismiss-btn" href="#">Dismiss</a>
+        </div>
+
+        <div
+          id="card-part"
+          class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 cardWrapper"
+        >
+          <!-- first card -->
+          <div class="bg-white rounded-xl shadow-sm card">
+            <div
+              class="w-10 h-10 flex items-center justify-center rounded-full bg-purple-100 mb-4"
+            >
+              <img src="./img/visaCard.png" alt="Visa card" />
+            </div>
+            <p class="text-gray-700 font-bold text-base">
+              Order a Kuda Visa card on the app with pickup and delivery
+              options.
+            </p>
+          </div>
+          <!-- Second card -->
+          <div class="bg-white rounded-xl shadow-sm card">
+            <div
+              class="w-10 h-10 flex items-center justify-center rounded-full bg-purple-100 mb-4"
+            >
+              <img src="./img/quarter.png" alt="Visa card" />
+            </div>
+            <p class="text-gray-700 font-bold text-base">
+              Enjoy cashless payment options online and offline.
+            </p>
+          </div>
+          <!-- Third card -->
+          <div class="bg-white rounded-xl shadow-sm card">
+            <div
+              class="w-10 h-10 flex items-center justify-center rounded-full bg-purple-100 mb-4"
+            >
+              <img src="./img/weight.png" alt="Visa card" />
+            </div>
+            <p class="text-gray-700 font-bold text-base">
+              Pay your essential bills and buy gift cards easily.
+            </p>
+          </div>
+          <!-- fourth card -->
+          <div class="bg-white rounded-xl shadow-sm card">
+            <div
+              class="w-10 h-10 flex items-center justify-center rounded-full bg-purple-100 mb-4"
+            >
+              <img src="./img/transfer.png" alt="Visa card" />
+            </div>
+            <p class="text-gray-700 font-bold text-base">
+              Get 25 free transfers to Nigerian banks every month.
+            </p>
+          </div>
+          <!-- fifth card -->
+          <div class="bg-white rounded-xl shadow-sm card">
+            <div
+              class="w-10 h-10 flex items-center justify-center rounded-full bg-purple-100 mb-4"
+            >
+              <img src="./img/piggySave.png" alt="Visa card" />
+            </div>
+            <p class="text-gray-700 font-bold text-base">
+              Save money automatically any time you spend.
+            </p>
+          </div>
+        </div>
+
+        <div id="relaxing-girl-part" class="section1div">
+          <div class="sectionTextDiv">
+            <h2 class="font-bold text-[#40196D]">
+              Your phone + our app + a debit card = a simpler life.
+            </h2>
+            <p>
+              We designed a money app for your lifestyle, and you can get a
+              debit card to go with it. That's all you need to make the right
+              money moves.
+            </p>
+            <a class="font-bold" href="#"
+              >Open An Account in Minutes <span> ></span></a
+            >
+          </div>
+          <div class="sectionImgDiv">
+            <img src="./img/relaxImg.png" alt="" />
+          </div>
+        </div>
+
+        <div id="its-your-money-part" class="section1divReverse">
+          <div class="section1divReverse-img">
+            <img src="./img/processesImg.png" alt="" />
+          </div>
+          <div class="section1divReverse-text">
+            <h2>It’s your money, we just help you manage it.</h2>
+            <p>
+              Save it, spend it, send it. It’s up to you. Whatever you choose to
+              do with your money, we’ll make sure it’s done better and free of
+              charge. We take responsibility for that.
+            </p>
+            <a href=""></a>
+          </div>
+        </div>
+
+        <div id="save-money-part" class="section1div">
+          <div class="sectionTextDiv">
+            <h2 class="font-bold text-[#40196D]">
+              Save money as you spend it, seriously.
+            </h2>
+            <p>
+              You can’t avoid spending. That’s how you pay for your needs. But
+              we can help you put money away every time you pay for something.
+              Just set a percentage to save and watch your money grow.
+            </p>
+            <a class="font-bold" href="#"
+              >See all our Savings <span> ></span></a
+            >
+          </div>
+          <div class="sectionImgDiv">
+            <img src="./img/spend+save.png" alt="" />
+          </div>
+        </div>
+
+        <div id="block-card-part" class="section1div">
+          <div class="sectionImgDiv">
+            <img class="block-card" src="./img/kudaCard.png" alt="" />
+          </div>
+          <div class="sectionTextDiv">
+            <h2 class="font-bold text-[#40196D]">
+              Turn off access, turn on safety.
+            </h2>
+            <p>
+              Life happens. Milk spills. Debit cards go missing. If that ever
+              happens, you can block your missing card on the app so no one can
+              use it. We’d like to see them try.
+            </p>
+            <a class="font-bold" href="#"
+              >Learn more about Cards <span> ></span></a
+            >
+          </div>
+        </div>
+
+        <div id="get-help-part" class="section1div">
+          <div class="sectionTextDiv">
+            <h2 class="font-bold text-[#40196D]">
+              We’re always happy to help you.
+            </h2>
+            <p>
+              You can chat with us on the app, slide into our DMs, tweet, leave
+              an Instagram comment, send an email or call. However you choose to
+              reach out, there’ll always be a friendly person there to make your
+              life easy.
+            </p>
+            <a class="font-bold" href="#">Get Help <span> ></span></a>
+          </div>
+          <div class="sectionImgDiv">
+            <img src="./img/helloImg.png" alt="" />
+          </div>
+        </div>
+
+        <div id="fees-part" class="section1div">
+          <div class="sectionImgDiv">
+            <img src="./img/glassImg.png" alt="" />
+          </div>
+          <div class="sectionTextDiv">
+            <h2 class="font-bold text-[#40196D]">Fees as clear as glass.</h2>
+            <p>
+              We’re serious about free banking, and we will never, ever charge
+              you for anything without your consent.
+            </p>
+            <a class="font-bold" href="#">See all our fees <span> ></span></a>
+          </div>
+        </div>
+      </section>
+
+      <section id="testimonial-part" class="testimonials">
+        <h2>Don’t just take our word for it</h2>
+
+        <div class="testimonial-card-container">
+          <div class="testimonial-card">
+            <p>
+              Well done to the guys at <b>@kudabank</b> had a dispensing error
+              on Friday night and reached out to them on Sunday... 48 working
+              hours after and my money is back in my account... Special shout
+              out to Maxwell and Norah
+            </p>
+            <div class="user">
+              <img src="./img/profile1.png" alt="" />
+              <span>Mu'azu Muhammad Kudu</span>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-grouped-p">
+              <p>Just joined the best Digital Bank in Nigeria.</p>
+              <p>I have no complaints whatsoever since I started using Kuda</p>
+            </div>
+            <div class="user">
+              <img src="./img/profile2.png" />
+              <span>Tomisinv</span>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <p>
+              Never thought an app would stylishy become my everyday way to bank
+              and have access to physical cash. <b>@kudabank </b>is sleek
+            </p>
+            <div class="user">
+              <img src="./img/profile3.png" alt="" />
+              <span>Babajide Duroshola</span>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <p>
+              This is the best banking app! I’m enjoying seamless banking plus
+              the free transfers to other banks is a thing of joy. This is what
+              I call freedom. I’ve made kuda my main bank account and I’m gonna
+              refer all my friends!
+            </p>
+            <div class="user">
+              <img src="./img/profile4.png" alt="" />
+              <span>@RealSOK_</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="logos">
+          <img src="./img/img1.png" alt="" />
+          <img src="./img/img2.png" alt="" />
+          <img src="./img/img3.png" alt="" />
+          <img src="./img/img4.png" alt="" />
+          <img src="./img/img5.png" alt="" />
+          <img src="./img/img6.png" alt="" />
+        </div>
+      </section>
+
+      <section id="our-partners-part" class="our-partners">
+        <h2>Our Partners</h2>
+        <div class="partner-img">
+          <img src="./img/patner1.png" alt="Partner company" />
+          <img src="./img/patner2.png" alt="Partner company" />
+          <img src="./img/patner3.png" alt="Partner company" />
+          <img src="./img/patner4.png" alt="Partner company" />
+          <img src="./img/partner5.png" alt="Partner company" />
+        </div>
+      </section>
+
+      <section id="choose-freedom-part" class="choose-freedom">
+        <h2>Choose the freedom you need.</h2>
+
+        <div class="table-wrapper">
+          <table>
+            <thead>
+              <tr>
+                <th></th>
+                <th>Our Banks</th>
+                <th><img src="./img/ourBank.png" alt="" /></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="font-bold">Transfer Fee</td>
+                <td class="table-cell-1">
+                  <img src="./img/dash-SVG.png" alt="dash" />
+                  <span>Up to ₦50 plus V.A.T.</span>
+                </td>
+                <td class="table-cell-2">
+                  <img src="./img/correct.png" alt="correct" />
+                  <span>25 free transfers every month</span>
+                </td>
+              </tr>
+              <tr>
+                <td class="font-bold">Card Delivery</td>
+                <td class="table-cell-1">
+                  <img src="./img/dash-SVG.png" alt="dash" /> <span>😉</span>
+                </td>
+                <td class="table-cell-2">
+                  <img src="./img/correct.png" alt="correct" /> <span>Yes</span>
+                </td>
+              </tr>
+              <tr>
+                <td class="font-bold">Card Maintenance Fee</td>
+                <td class="table-cell-1">
+                  <img src="./img/dash-SVG.png" alt="dash" />
+                  <span>Up to ₦50 per quarter</span>
+                </td>
+                <td class="table-cell-2">
+                  <img src="./img/correct.png" alt="correct" /> <span>No</span>
+                </td>
+              </tr>
+              <tr>
+                <td class="font-bold">Alerts</td>
+                <td class="table-cell-1">
+                  <img src="./img/dash-SVG.png" alt="dash" />
+                  <span>Charge for SMS alerts</span>
+                </td>
+                <td class="table-cell-2">
+                  <img src="./img/correct.png" alt="correct" />
+                  <span>Free instant notifications</span>
+                </td>
+              </tr>
+              <tr>
+                <td class="font-bold">Annual Interest</td>
+                <td class="table-cell-1">
+                  <img src="./img/dash-SVG.png" alt="dash" /> <span>4%</span>
+                </td>
+                <td class="table-cell-2">
+                  <img src="./img/correct.png" alt="correct" />
+                  <span>Up to 15%</span>
+                </td>
+              </tr>
+              <tr>
+                <td class="font-bold">Bill Payment Fee</td>
+                <td class="table-cell-1">
+                  <img src="./img/dash-SVG.png" alt="dash" />
+                  <span>Up to ₦100 per bill</span>
+                </td>
+                <td class="table-cell-2">
+                  <img src="./img/correct.png" alt="correct" /> <span>No</span>
+                </td>
+              </tr>
+              <tr>
+                <td class="font-bold">Instant Reversals</td>
+                <td class="table-cell-1">
+                  <img src="./img/dash-SVG.png" alt="dash" /> <span>😒</span>
+                </td>
+                <td class="table-cell-2">
+                  <img src="./img/correct.png" alt="correct" /> <span>Yes</span>
+                </td>
+              </tr>
+              <tr>
+                <td class="font-bold">Maintenance</td>
+                <td class="table-cell-1">
+                  <img src="./img/dash-SVG.png" alt="dash" /> <span>Yes</span>
+                </td>
+                <td class="table-cell-2">
+                  <img src="./img/correct.png" alt="correct" /> <span>No</span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section id="more-for-you-part" class="more-for-you-part">
+        <div class="more-for-you-wrapper">
+          <h2>More for you</h2>
+          <div class="more-for-you-cards">
+            <div class="more-for-you-card1">
+              <img src="./img/businessIcon.png" alt="briefcase Image" />
+              <div class="more-for-you-card-text">
+                <h3>Kuda Business</h3>
+                <p>
+                  Grow your business with our all-in-one business manager. Get a
+                  POS, bulk transfers, payroll and more.
+                </p>
+              </div>
+              <a href="#">Learn more <span> ></span></a>
+            </div>
+            <div class="more-for-you-card2">
+              <img src="./img/transferIcon.png" alt="briefcase Image" />
+              <div class="more-for-you-card-text">
+                <h3>Transfer & Spend</h3>
+                <p>
+                  Send money for free to any Nigerian account with 25 free
+                  transfers every month.
+                </p>
+              </div>
+              <a href="#">Learn more <span> ></span></a>
+            </div>
+            <div class="more-for-you-card3">
+              <img src="./img/saveIcon.png" alt="briefcase Image" />
+              <div class="more-for-you-card-text">
+                <h3>Loans</h3>
+                <p>
+                  Get up to ₦150,000 in your Kuda account easily and repay in
+                  convenient instalments.
+                </p>
+              </div>
+              <a href="#">Learn more <span> ></span></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="the-money-app-part" class="money-app">
+        <div class="money-app-wrapper">
+          <div class="money-app-wrapper-left">
+            <h2>The money app for Africans.</h2>
+            <p>Save, spend, send and invest money across borders.</p>
+            <a href="#">Join Kuda</a>
+          </div>
+          <div>
+            <img src="./img/phoneontainer.png" alt="Phone container image" />
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
