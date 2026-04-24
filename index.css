@@ -382,6 +382,10 @@ h1 {
   color: black;
   font-size: 16px;
 }
+.sectionTextDiv a {
+  color: #40196D;
+  font-weight: bold;
+}
 
 .section1divReverse {
   margin-top: 70px;
@@ -903,5 +907,13 @@ td {
   .money-app-wrapper {
     flex-direction: column;
     padding-block: 12px;
+  }
+  .money-app-wrapper-left a {
+  margin-right: auto;
+  background-color: #40196D;
+  cursor: pointer;
+  padding: 12px 20px;
+  display: inline-flex;
+  font-size: 14px;
   }
 }
