@@ -405,6 +405,7 @@ h1 {
   color: #40196d;
   font-weight: bold;
   font-size: 36px;
+  margin-bottom: 20px;
 }
 .section1divReverse-text p {
   font-size: 1rem;
@@ -667,7 +668,11 @@ td {
   max-width: 600px;
   font-weight: bold;
 }
-
+ #card-part p, #relaxing-girl-part p, #its-your-money-part p, #more-for-you-card-text p, #save-money-part p, #block-card-part p, #get-help-part p, #fees-part p, #testimonial-part p, #our-partners-part p, #choose-freedom-part p, #the-money-app-part p {
+   color: black;
+   font-size: 16px;
+  font-weight: normal;
+ }
 
 .money-app {
   margin-inline: 130px;
