@@ -942,4 +942,7 @@ td {
   .footer {
     margin: 30px;
   }
+  .footer-group1-a {
+   gap: 30px; 
+  }
 }
