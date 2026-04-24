@@ -712,6 +712,24 @@ td {
   border-radius: 10px;
 }
 
+.footer {
+  margin: 73px 130px 24px 130px;
+}
+
+.footer-group-1 h3 {
+  font-size: 16px;
+  color: #40196D;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.footer-group-1 a {
+  font-size: 14px;
+  text-decoration: none;
+  margin-bottom: 30px;
+  display: block;
+}
+
 /* use 
 * @media screen and (min-width: 479px) and (max-width: 991px)
 * fot tab specific screens
@@ -920,5 +938,8 @@ td {
   padding: 12px 20px;
   display: inline-flex;
   font-size: 14px;
+  }
+  .footer {
+    margin: 30px;
   }
 }
